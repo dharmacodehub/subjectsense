@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SubjectSense - AI Email Subject Line Generator</title>
+    <meta name="description" content="Generate engaging email subject lines using AI. Get better open rates with compelling, professional subject lines.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">Subject<span>Sense</span></div>
+            <a href="#try-it" class="nav-cta">Try It Free</a>
+        </nav>
+        <div class="hero">
+            <h1>Craft Perfect Email Subject Lines with AI</h1>
+            <p class="hero-subtitle">Transform your email engagement with AI-powered subject lines that capture attention and drive results.</p>
+            <a href="#try-it" class="cta-button">Get Started Free</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="features">
+            <h2>Why Choose SubjectSense?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Lightning Fast</h3>
+                    <p>Generate multiple subject lines in seconds, saving you time and effort.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>AI-Powered</h3>
+                    <p>Leverages advanced AI to create engaging, professional subject lines.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💡</div>
+                    <h3>Smart Suggestions</h3>
+                    <p>Get unique variations that capture your email's essence.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📈</div>
+                    <h3>Better Open Rates</h3>
+                    <p>Improve your email performance with compelling subject lines.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="how-it-works">
+            <h2>How It Works</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Paste Your Email</h3>
+                    <p>Input your email content in the text area.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Generate Ideas</h3>
+                    <p>Click generate and let AI work its magic.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Choose & Copy</h3>
+                    <p>Select your favorite subject line with one click.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="try-it" class="generator-section">
+            <div class="container">
+                <h2>Try It Now</h2>
+                <p class="generator-subtitle">Paste your email content below and let AI craft the perfect subject lines for you.</p>
+                <div class="input-section">
+                    <textarea id="emailContent" placeholder="Write or paste your email content here, and I'll generate engaging subject lines for you..." spellcheck="true"></textarea>
+                    <button id="generateBtn">
+                        <span class="button-icon">✨</span>
+                        Generate Subject Lines
+                    </button>
+                </div>
+                <div class="loading" id="loading">
+                    <div class="spinner"></div>
+                    <p>Crafting engaging subject lines...</p>
+                </div>
+                <div class="results" id="results">
+                    <h3>✨ Suggested Subject Lines</h3>
+                    <p class="results-tip">Click any subject line to copy it to your clipboard</p>
+                    <ul id="subjectLines"></ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">Subject<span>Sense</span></div>
+            <p>Powered by Google's Gemini AI</p>
+            <p class="copyright">© 2024 SubjectSense. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html> 
